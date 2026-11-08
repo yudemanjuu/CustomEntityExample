@@ -1,0 +1,10 @@
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
+function ice_golem:summon
