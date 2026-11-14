@@ -1,3 +1,3 @@
 #> ice_golem:ai_summon
 # ice_golemのAIエンティティ召喚
-    summon zombie ~ ~ ~ {Silent:1b,DeathLootTable:"ice_golem:death",attributes:[{id:"max_health",base:1000},{id:"armor",base:0},{id:"movement_speed",base:0.25},{id:attack_damage,base:0}],active_effects:[{id:invisibility,duration:-1,show_particles:false}],Tags:["Summon","AIEntity","IceGolem"],PersistenceRequired:true,equipment:{head:{id:"feather",components:{item_name:TempItem,item_model:"invisible"}}}}
+    summon zombie ~ ~ ~ {Silent:1b,DeathLootTable:"ice_golem:death",attributes:[{id:"max_health",base:1000},{id:"armor",base:0},{id:"movement_speed",base:0.25},{id:attack_damage,base:0}],active_effects:[{id:invisibility,duration:-1,show_particles:false}],Tags:["Summon","AIEntity","IceGolem"],PersistenceRequired:true,equipment:{head:{id:"feather",components:{item_name:TempItem,item_model:"air"}}}}
