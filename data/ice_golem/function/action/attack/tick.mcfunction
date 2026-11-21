@@ -12,6 +12,6 @@
     execute if score @s ActionTimer matches 12 as @e[tag=Attacked] run damage @s 7 mob_attack by @n[tag=This] from @n[tag=This]
     execute if score @s ActionTimer matches 12 run tag @s remove This
     execute if score @s ActionTimer matches 12 run tag @e[tag=Attacked] remove Attacked
-# 25、行動終了
-    execute if score @s ActionTimer matches 25 run scoreboard players set @s ActionID 0
-    execute if score @s ActionTimer matches 25 run attribute @s movement_speed base set 0.25
+# 26、行動終了
+    execute if score @s ActionTimer matches 26 run scoreboard players set @s ActionID 0
+    execute if score @s ActionTimer matches 26 run attribute @s movement_speed base set 0.25
