@@ -7,6 +7,6 @@
 # 15、marker召喚
     execute if score @s ActionTimer matches 15 on target at @s run summon marker ~ ~ ~ {CustomName:"Icicle"}
 
-# 60、行動終了
-    execute if score @s ActionTimer matches 60 run scoreboard players set @s ActionID 0
-    execute if score @s ActionTimer matches 60 run attribute @s movement_speed base set 0.25
+# 61、行動終了
+    execute if score @s ActionTimer matches 61 run scoreboard players set @s ActionID 0
+    execute if score @s ActionTimer matches 61 run attribute @s movement_speed base set 0.25
